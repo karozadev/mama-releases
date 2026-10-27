@@ -10,7 +10,9 @@ Le réseau social de la cuisine malgache : chaque jour, les mamans partagent ce 
 [![Téléchargements](https://img.shields.io/github/downloads/karozadev/mama-releases/total?label=t%C3%A9l%C3%A9chargements&color=3F5F3F&style=for-the-badge)](https://github.com/karozadev/mama-releases/releases)
 ![Android](https://img.shields.io/badge/Android-6.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 
-### [⬇️ Télécharger la dernière version](https://github.com/karozadev/mama-releases/releases/latest)
+### [⬇️ Télécharger Mama pour Android](https://github.com/karozadev/mama-releases/releases/latest/download/mama.apk)
+
+<sub>Le téléchargement démarre tout de suite · [toutes les versions](https://github.com/karozadev/mama-releases/releases)</sub>
 
 </div>
 
@@ -34,7 +36,7 @@ C'est **gratuit**.
 
 ## 📲 Installer Mama sur Android
 
-1. **Téléchargez** le fichier `mama-X.Y.Z.apk` depuis la [dernière version](https://github.com/karozadev/mama-releases/releases/latest), directement sur votre téléphone.
+1. **Téléchargez** [Mama](https://github.com/karozadev/mama-releases/releases/latest/download/mama.apk) directement sur votre téléphone : le fichier `mama.apk` se télécharge sans autre étape.
 2. **Ouvrez** le fichier téléchargé.
 3. Si Android le demande, **autorisez l'installation** depuis votre navigateur ou votre gestionnaire de fichiers (« Installer des applications inconnues »). Cette autorisation n'est demandée qu'une fois.
 4. Touchez **Installer**, puis **Ouvrir**.
@@ -60,11 +62,13 @@ Vous pouvez aussi la chercher vous-même : **Profil → Rechercher une mise à j
 
 ## 🔐 Vérifier le fichier
 
-Chaque version est publiée avec un fichier `.sha256`. Pour vérifier que votre téléchargement est intact, comparez l'empreinte :
+Chaque version est publiée avec un fichier `.sha256` (sur la [page de la version](https://github.com/karozadev/mama-releases/releases/latest)). Pour vérifier que votre téléchargement est intact, comparez l'empreinte :
 
 ```bash
-sha256sum -c mama-X.Y.Z.apk.sha256
+sha256sum mama.apk
 ```
+
+et comparez le résultat avec le contenu du fichier `mama-X.Y.Z.apk.sha256`.
 
 Les APK sont signés avec la clé de release de Mama. Empreinte SHA-256 du certificat :
 
